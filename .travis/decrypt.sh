@@ -5,7 +5,7 @@ mkdir .snapcraft/
 
 # Decrypt snapcraft credentials
 openssl aes-256-cbc \
-  -K $encrypted_f4fc35a3a47c_key \
-  -iv $encrypted_f4fc35a3a47c_iv \
+  -K $encrypted_aa15611d46b0_key \
+  -iv $encrypted_aa15611d46b0_iv \
   -in .travis/snapcraft.cfg \
   -out .snapcraft/snapcraft.cfg -d
